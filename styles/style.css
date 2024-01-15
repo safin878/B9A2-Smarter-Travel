@@ -6,10 +6,21 @@
 * {
   font-family: "Mulish", sans-serif;
 }
+.paragraph-theam {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+}
+.primary-btn {
+  padding: 16px 35px;
+  border-radius: 8px;
+  background: #ff5400;
+}
 /* Universal styles end */
 
 /* Shared styles starts */
-header {
+header,
+main {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -56,3 +67,66 @@ nav {
   color: #ff5400;
 }
 /* Nav Styles end */
+
+/* Search Engine Styles start */
+.search-engine {
+  margin: 50px 0px 100px 0px;
+  padding: 100px 200px;
+  border-radius: 16px;
+  background: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8) 0%,
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.search-engine-title {
+  color: #fff;
+  font-size: 64px;
+  font-weight: 800;
+  margin: 120px 0px 24px 0px;
+  text-align: center;
+}
+.search-p {
+  margin-bottom: 48px;
+}
+.search-engine p {
+  color: #fff;
+  text-align: center;
+  padding: 0px 62px;
+}
+.form {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.search {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.form-button p {
+  padding: 16px 35px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.card input,
+.card select {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  padding: 16px 84px 16px 16px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+}
+/* Search Engine Styles end */
