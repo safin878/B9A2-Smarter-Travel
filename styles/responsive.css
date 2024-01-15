@@ -1,0 +1,18 @@
+/* responsive for mobile */
+@media screen and (max-width: 600px) {
+  body {
+    padding: 20px;
+  }
+  .menu-section {
+    display: none;
+  }
+  .smarter-travel {
+    width: 50%;
+  }
+  .smarter-travel h2 {
+    font-size: 21.543px;
+  }
+  .menu-bar {
+    display: inline;
+  }
+}

@@ -1,0 +1,58 @@
+/* main font */
+
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900;1000&display=swap");
+
+/* Universal styles starts here */
+* {
+  font-family: "Mulish", sans-serif;
+}
+/* Universal styles end */
+
+/* Shared styles starts */
+header {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+/* Shared styles end */
+
+/* Nav Styles starts here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.smarter-travel {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  width: 55%;
+}
+.smarter-travel img {
+  min-width: 48px;
+}
+.smarter-travel h2 {
+  color: #131318;
+  font-size: 36px;
+  font-weight: 800;
+}
+.menu-section {
+  display: flex;
+  gap: 40px;
+}
+.menu-bar {
+  text-align: center;
+  display: none;
+}
+
+.menu-section a {
+  text-decoration: none;
+  color: #424247;
+  font-family: Mulish;
+  font-size: 18px;
+  font-weight: 400;
+}
+.menu-section .home a,
+.orange {
+  color: #ff5400;
+}
+/* Nav Styles end */
