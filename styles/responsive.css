@@ -4,7 +4,10 @@
     padding: 20px;
   }
   .search,
-  .popular-section {
+  .popular-section,
+  .top-row,
+  .middle-row,
+  .bottom-row {
     flex-direction: column;
   }
   .primary-heading {
@@ -42,5 +45,12 @@
   }
   .popular-section {
     gap: 24px;
+  }
+  .top-row,
+  .middle-row,
+  .bottom-row {
+    position: static;
+    width: 335px;
+    height: 176px;
   }
 }

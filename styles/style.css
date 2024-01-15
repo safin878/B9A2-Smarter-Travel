@@ -159,6 +159,7 @@ nav {
 .popular-section {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .popular-section button {
   margin-top: 30px;
@@ -169,3 +170,55 @@ nav {
 }
 
 /* popular section styles end */
+
+/* destination section styles start*/
+
+.destination {
+  text-align: center;
+}
+.destination h3 {
+  margin-bottom: 24px;
+}
+.destination p {
+  margin: 0px 0px 48px 0px;
+}
+.top-row,
+.middle-row,
+.bottom-row {
+  display: flex;
+  justify-content: space-between;
+}
+.top-row img,
+.bottom-row img {
+  height: 370px;
+}
+.middle-row img {
+  height: 350px;
+  position: relative;
+  bottom: 60px;
+}
+.bottom-row {
+  position: relative;
+  bottom: 120px;
+}
+.destination-text {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 800;
+}
+.maldives p,
+.bangladesh p,
+.bandarban p,
+.srilanka p,
+.north-america p,
+.kashmir p,
+.indonesia p {
+  position: relative;
+  bottom: 45%;
+}
+.srilanka p,
+.north-america p,
+.kashmir p {
+  bottom: 55%;
+}
+/* destination section styles end*/
