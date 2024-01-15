@@ -3,6 +3,16 @@
   body {
     padding: 20px;
   }
+  .search,
+  .popular-section {
+    flex-direction: column;
+  }
+  .primary-heading {
+    font-size: 20px;
+  }
+  .primary-text {
+    font-size: 14px;
+  }
   .menu-section {
     display: none;
   }
@@ -14,5 +24,23 @@
   }
   .menu-bar {
     display: inline;
+  }
+  .search-engine {
+    padding: 32px 15px;
+  }
+  .search-engine-title {
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    margin: 0px 0px 5px 0px;
+  }
+  .search-engine p {
+    padding: 0;
+  }
+  .popular-content {
+    width: 100%;
+  }
+  .popular-section {
+    gap: 24px;
   }
 }
