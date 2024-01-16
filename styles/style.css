@@ -340,6 +340,32 @@ nav {
 }
 
 /* Deals section end */
+.lost {
+  display: flex;
+  gap: 315px;
+}
+
+.lost .video {
+  width: 100%;
+}
+.lost-text h1 {
+  color: #131318;
+  font-size: 40px;
+  font-weight: 800;
+}
+.lost-text li {
+  color: #131318;
+  font-size: 16px;
+  font-weight: 700;
+}
+.video h2 {
+  text-align: center;
+  position: relative;
+  bottom: 50%;
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
 
 /* newsletter section starts here */
 .newsletter-text {
@@ -410,6 +436,59 @@ hr {
 }
 
 /* newsletter section end */
+
+/* unique section start */
+.unique {
+  height: 290px;
+  background-color: #ff5813;
+}
+.info {
+  color: #fff;
+  font-weight: 900;
+  font-size: 45px;
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.info .info-container p {
+  font-size: 30px;
+  font-weight: 600;
+}
+.info-container {
+  text-align: center;
+}
+.info-container p {
+  margin: 10px 0px;
+}
+.info-container h1 {
+  margin-bottom: 0;
+}
+.bg-1 {
+  background-image: url("../Images/Business\ Startup.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+.bg-2 {
+  background-image: url("../Images/Travel\ Airport\ Baggage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 90%;
+}
+.bg-3 {
+  background-image: url("../Images/Vector.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+.bg-4 {
+  background-image: url("../Images/tours.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+}
+/* unique section end */
 
 /* footer styles start */
 

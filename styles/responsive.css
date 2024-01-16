@@ -10,7 +10,8 @@
   .middle-row,
   .bottom-row,
   .choose-card,
-  .newsletter {
+  .newsletter,
+  .lost {
     flex-direction: column;
   }
   .primary-heading {
@@ -107,5 +108,20 @@
   }
   .symbol {
     gap: 15px;
+  }
+  .info {
+    flex-wrap: wrap;
+  }
+  .unique {
+    height: auto;
+  }
+  .lost {
+    gap: 50px;
+  }
+  .video img {
+    height: 320px;
+  }
+  .video h2 {
+    bottom: 214px;
   }
 }
