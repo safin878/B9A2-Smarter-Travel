@@ -49,16 +49,6 @@
   .popular-section {
     gap: 24px;
   }
-  .top-row,
-  .middle-row,
-  .bottom-row {
-    position: static;
-    width: 335px;
-    height: 176px;
-  }
-  .top-row img {
-    max-width: 550px;
-  }
   .pink-card {
     width: auto;
   }
@@ -72,12 +62,50 @@
   }
   .box {
     width: 245px;
-    translate: 141px -167px;
+    translate: 82px -167px;
   }
   footer {
     padding: 30px 20px;
   }
   .footer-description {
     padding: 0px 24px;
+  }
+
+  /* responsive styles for destination images */
+  .destination-img {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: center;
+  }
+
+  .top-row img,
+  .middle-row img,
+  .bottom-row img {
+    width: 335px;
+    height: 176px;
+    height: auto;
+  }
+
+  .destination-text {
+    font-size: 18px;
+  }
+
+  .choose-heading p {
+    padding: 10px;
+  }
+
+  .search-engine {
+    background-size: cover;
+    background-position: center;
+  }
+  .deal-content,
+  .deal-content-2 {
+    margin-left: 16px;
+    margin-right: 16px;
+    top: 9px;
+  }
+  .symbol {
+    gap: 15px;
   }
 }
